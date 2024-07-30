@@ -27,7 +27,7 @@ export function About() {
       <Row className="mt-4">
         <Col md={6} className="d-flex align-items-center">
           <p>
-            Founded in [Year], our store has quickly grown to become a favorite among shoppers. We believe in the power of community and strive to build strong relationships with our customers. Your satisfaction is our top priority, and we are here to help you find exactly what you're looking for.
+            Founded in 2023, our store has quickly grown to become a favorite among shoppers. We believe in the power of community and strive to build strong relationships with our customers. Your satisfaction is our top priority, and we are here to help you find exactly what you're looking for.
           </p>
         </Col>
         <Col md={6}>

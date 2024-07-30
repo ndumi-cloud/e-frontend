@@ -21,13 +21,13 @@ export function Navbar() {
           </Nav.Link>
         </Nav>
         <Nav>
-          {isLoggedIn ? (
+          {/* {isLoggedIn ? (
             <Button variant="outline-primary">Logout</Button>
           ) : (
             <Nav.Link to="/login" as={NavLink}>
               <Button variant="outline-primary">Login</Button>
             </Nav.Link>
-          )}
+          )} */}
           {cartQuantity > 0 && (
             <Button
               onClick={openCart}
