@@ -34,12 +34,14 @@ import { Navbar } from "./components/Navbar"
 import { ShoppingCartProvider } from "./context/ShoppingCartContext"
 import { Login } from "./components/Login"
 import { Register } from "./components/Register"
+
 import axios from "axios"
 
 axios.defaults.baseURL = import.meta.env.VITE_API_URL || '/api';
 
 function App() {
   return (
+    
     <ShoppingCartProvider>
       <Navbar />
       <Container className="mb-4">
@@ -52,6 +54,7 @@ function App() {
         </Routes>
       </Container>
     </ShoppingCartProvider>
+   
   )
 }
 
