@@ -29,6 +29,6 @@
   { "id": 7, "name": "Mac", "price": 19.99, "imgUrl": "/imgs/mac.jpg" },
   { "id": 8, "name": "Phone", "price": 19.99, "imgUrl": "/imgs/phone1.jpg" },
  
-  { "id": 9, "name": "Blouses", "price": 19.99, "imgUrl": "/imgs/blouses.jpg" },
+  { "id": 9, "name": "Blouses", "price": 19.99, "imgUrl": "/imgs/Blouses.jpg" },
   { "id": 10, "name": "Chip", "price": 19.99, "imgUrl": "/imgs/electronic.jpg" }
 ]
