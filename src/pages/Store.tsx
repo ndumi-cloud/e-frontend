@@ -1,13 +1,28 @@
-import { Col, Row } from "react-bootstrap"
+import React, { useState } from "react"
+import { Col, Row, Form } from "react-bootstrap"
 import { StoreItem } from "../components/StoreItem"
 import storeItems from "../data/items.json"
 
 export function Store() {
+  const [searchTerm, setSearchTerm] = useState("")
+
+  const filteredItems = storeItems.filter(item =>
+    item.name.toLowerCase().includes(searchTerm.toLowerCase())
+  )
+
   return (
     <>
       <h1>Store</h1>
+      <Form.Group className="mb-3">
+        <Form.Control
+          type="text"
+          placeholder="Search items..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+      </Form.Group>
       <Row md={2} xs={1} lg={3} className="g-3">
-        {storeItems.map(item => (
+        {filteredItems.map(item => (
           <Col key={item.id}>
             <StoreItem {...item} />
           </Col>
