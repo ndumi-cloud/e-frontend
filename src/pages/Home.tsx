@@ -8,7 +8,7 @@ const featuredProducts = [
   { id: 3, name: "Mac", price: 19.99, imageUrl: "/imgs/mac.jpg" },
   { id: 4, name: "Phone", price: 19.99, imageUrl: "/imgs/phone1.jpg" },
  
-  { id: 5, name: "Blouses", price: 19.99, imageUrl: "/imgs/blouses.jpg" },
+  { id: 5, name: "Blouses", price: 19.99, imageUrl: "/imgs/Blouses.jpg" },
   { id: 6, name: "Chip", price: 19.99, imageUrl: "/imgs/electronic.jpg" },
 
 ];
